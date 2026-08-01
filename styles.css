@@ -178,12 +178,12 @@ a { color: inherit; }
 }
 
 .hero__meta {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  gap: 2.5rem;
-  align-items: end;
   border-top: 1px solid var(--line-strong);
   padding-top: 1.75rem;
+}
+
+.hero__meta .ticket {
+  display: inline-grid;
 }
 
 .hero__role {
