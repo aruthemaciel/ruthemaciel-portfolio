@@ -6,7 +6,7 @@
   --ink-soft: #1B1917;
   --paper: #EDE6D6;
   --paper-dim: #C9BFA6;
-  --pink: #FF3E7F;
+  --pink: #5C6B3D;
   --olive: #8C8560;
   --line: rgba(237, 230, 214, 0.14);
   --line-strong: rgba(237, 230, 214, 0.32);
@@ -64,7 +64,7 @@ a { color: inherit; }
    ============================================ */
 .marquee {
   background: var(--pink);
-  color: var(--ink);
+  color: var(--paper);
   overflow: hidden;
   white-space: nowrap;
   border-bottom: 1px solid var(--ink);
